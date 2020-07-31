@@ -1,0 +1,25 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "I'm doing this project to practice Node.js",
+  "main": "app.js",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "nodemailer": "^6.4.11",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaEP/emailSender.git"
+  },
+  "author": "Luka Paiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaEP/emailSender/issues"
+  },
+  "homepage": "https://github.com/LukaEP/emailSender#readme"
+}
