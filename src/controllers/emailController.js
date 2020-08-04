@@ -30,8 +30,8 @@ exports.inbox = async (req, res) => {
         const client = inbox.createConnection(false, "imap.gmail.com", {
             secureConnection: true,
             auth: {
-                user: process.env.USER_EMAIL_CONNECT,
-                pass: process.env.USER_PASSWORD_CONNECT
+                user: req.body.email,
+                pass: req.body.password
             }
         });
 
@@ -45,8 +45,7 @@ exports.inbox = async (req, res) => {
                     if (err) throw err;
                     res.status(200).send({message: messages});
                 });
-            });
-            
+            }); 
         });
 
     } catch (error) {

@@ -9,6 +9,6 @@ router.get('/', (req, res, next) => {
   });
 });
 router.post('/send', emailController.sendEmail);
-router.get('/inbox', emailController.inbox);
+router.post('/inbox', emailController.inbox);
 
 module.exports = router;
