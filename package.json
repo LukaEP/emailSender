@@ -10,7 +10,7 @@
     "express": "^4.17.1",
     "formidable": "^1.2.2",
     "fs": "^0.0.1-security",
-    "nodemailer": "^6.4.11",
+    "nodemailer": "^6.4.16",
     "nylas": "^5.2.0"
   },
   "devDependencies": {
